@@ -28,6 +28,14 @@ body:
     description: Add any other context about the problem here
   validations:
     required: false
+- type: checkboxes
+  id: formattingCheck
+  attributes:
+    label: Formatting Check
+    description: Before submitting, ensure your code is properly formatted.
+    options:
+      - label: "I have carefully reviewed and ensured that my code is properly formatted before submission."
+        required: true
 - type: dropdown
   attributes:
     label: Are you working on this?
